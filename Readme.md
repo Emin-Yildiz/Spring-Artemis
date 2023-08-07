@@ -22,6 +22,18 @@ Artemis içerisinde bulunan yapılar kısaca şunlardır:
 - **Broker:** Artemisin genel işleyisini sağlar. Mesajları alır, işler, depolar ve dağıtır.
 - **Client:** Broker ile iletişime geçen uygulamalar veya servislerdir.
 
+### Avantajlar
+
+- **Yüksek Performans:** Artemis, hızlı ve yüksek performanslı bir mesajlaşma çözümüdür.
+- **Yüksek Kullanılabilirlik:** Active-Active ve Active-Passive kümelenme modları gibi yüksek kullanılabilirlik seçenekleri sunar.
+- **Protokol Desteği:** Artemis, AMQP, MQTT, STOMP ve daha pek çok protokolü destekler.
+- **Java Tabanlı:** Eğer Java tabanlı bir uygulama geliştiriyorsanız, bu seçenek sizin için avantaj olabilir.
+
+### Dezavantajlar
+
+- **Karmaşıklık:** Diğer çözümlere göre daha fazla yapılandırma gerektirebilir.
+- **Topluluk Desteği:** Kafka ve RabbitMQ gibi geniş bir topluluğa sahip olmayabilir.
+
 ## Artemis Kurulumu
 
 Spring Boot projesi için gereken depencency
